@@ -10,6 +10,7 @@ class CreateCostumeStore < ActiveRecord::Migration[4.2]
       t.string :open_or_not
       t.datetime :opening
       t.datetime :closing
+      t.timestamps
     end
 
 end
